@@ -1,0 +1,63 @@
+# This is a script produced by the --testing option to your program.
+# It indicates states of the game board that would be shown to a player
+# (after a new tile is created and added to the board and after a tilt that
+# changes the board.)
+#   * Lines of the form
+#         B N s m t00 t01 t02 t03 t10 t11 t12 t13 ... t33
+#     denote dumps of the board where N is the board size, s is the score of
+#     the current game, m is the maximum final score so far in this session
+#     (0 until the end of the first game) and trc is the value of the tile
+#     at row r, column c, or 0 if there is no tile there.
+#   * Lines of the form
+#         E N s m t00 t01 t02 t03 t10 t11 t12 t13 ... t33
+#     are the same as those starting with B, but additionally indicate that
+#     the game is ended.
+#   * Lines starting with # and blank lines are ignored.
+#
+B 4 0 0 2 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0
+B 4 0 0 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0
+B 4 0 0 2 0 0 2 2 0 0 0 0 0 0 0 0 0 0 0
+B 4 4 0 4 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0
+B 4 4 0 4 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0
+B 4 4 0 4 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0
+B 4 4 0 4 2 0 2 0 0 0 0 0 0 0 0 0 0 0 2
+B 4 8 0 4 4 0 0 0 0 0 0 0 0 0 0 2 0 0 0
+B 4 8 0 4 4 0 0 0 0 0 0 0 0 0 0 2 0 4 0
+B 4 16 0 8 0 0 0 0 0 0 0 0 0 0 0 2 4 0 0
+B 4 16 0 8 0 0 0 0 0 0 0 0 0 0 2 2 4 0 0
+B 4 16 0 8 0 0 0 0 0 0 0 2 0 0 0 2 4 0 0
+B 4 16 0 8 0 0 0 0 0 0 0 2 0 0 0 2 4 0 2
+B 4 20 0 0 0 0 0 0 0 0 0 8 0 0 0 4 4 0 2
+B 4 20 0 0 0 0 0 0 0 0 4 8 0 0 0 4 4 0 2
+B 4 28 0 0 0 0 0 4 0 0 0 8 0 0 0 8 2 0 0
+B 4 28 0 0 0 0 0 4 0 0 0 8 2 0 0 8 2 0 0
+B 4 48 0 0 0 0 0 0 0 0 0 4 0 0 0 16 4 0 0
+B 4 48 0 0 0 0 0 0 0 0 0 4 0 0 0 16 4 0 2
+B 4 48 0 4 4 0 2 16 0 0 0 0 0 0 0 0 0 0 0
+B 4 48 0 4 4 4 2 16 0 0 0 0 0 0 0 0 0 0 0
+B 4 56 0 8 4 2 0 16 0 0 0 0 0 0 0 0 0 0 0
+B 4 56 0 8 4 2 0 16 0 0 0 0 0 0 2 0 0 0 0
+B 4 56 0 0 8 4 2 0 0 0 16 0 0 0 2 0 0 0 0
+B 4 56 0 0 8 4 2 0 2 0 16 0 0 0 2 0 0 0 0
+B 4 56 0 0 8 4 2 0 0 2 16 0 0 0 2 0 0 0 0
+B 4 56 0 0 8 4 2 0 0 2 16 0 0 0 2 0 0 2 0
+B 4 60 0 0 0 0 0 0 0 0 2 0 0 4 16 0 8 4 2
+B 4 60 0 0 0 0 0 0 0 0 2 0 2 4 16 0 8 4 2
+B 4 68 0 0 0 0 0 0 0 0 2 0 2 0 16 0 8 8 2
+B 4 68 0 0 0 0 0 0 0 0 2 2 2 0 16 0 8 8 2
+B 4 88 0 0 0 0 0 0 0 0 2 0 0 4 16 0 0 16 2
+B 4 88 0 0 0 0 0 0 0 0 2 2 0 4 16 0 0 16 2
+B 4 88 0 2 0 4 2 0 0 16 16 0 0 0 2 0 0 0 0
+B 4 88 0 2 0 4 2 0 0 16 16 2 0 0 2 0 0 0 0
+B 4 124 0 0 2 4 2 0 0 0 32 0 0 0 4 0 0 0 0
+B 4 124 0 0 2 4 2 2 0 0 32 0 0 0 4 0 0 0 0
+B 4 124 0 2 2 4 2 0 0 0 32 0 0 0 4 0 0 0 0
+B 4 124 0 2 2 4 2 2 0 0 32 0 0 0 4 0 0 0 0
+B 4 128 0 0 4 4 2 0 0 2 32 0 0 0 4 0 0 0 0
+B 4 128 0 0 4 4 2 0 0 2 32 0 2 0 4 0 0 0 0
+B 4 136 0 0 0 8 2 0 0 2 32 0 0 2 4 0 0 0 0
+B 4 136 0 0 2 8 2 0 0 2 32 0 0 2 4 0 0 0 0
+B 4 140 0 0 0 0 0 0 0 0 2 0 0 8 32 0 2 4 4
+B 4 140 0 0 0 0 0 0 0 2 2 0 0 8 32 0 2 4 4
+B 4 152 0 0 0 0 0 0 0 0 4 0 0 8 32 0 0 2 8
+B 4 152 0 0 0 0 0 0 0 2 4 0 0 8 32 0 0 2 8

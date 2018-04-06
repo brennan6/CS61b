@@ -1,0 +1,21 @@
+T 2 1 2
+T 2 1 1
+K Down
+T 2 0 0
+K Up
+T 2 2 3
+K Up
+K Right
+T 4 3 1
+K Down
+T 2 1 2
+K Down
+T 2 0 1
+K Down
+T 2 0 3
+K Down
+T 2 1 1
+K Left
+T 4 3 1
+K Left
+T 2 0 3

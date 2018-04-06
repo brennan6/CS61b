@@ -1,0 +1,207 @@
+T 2 2 2
+T 2 1 2
+K Shift
+K R
+K Left
+T 2 3 1
+K Right
+T 2 0 3
+K Left
+T 2 0 3
+T 2 2 2
+K Down
+T 2 1 0
+K Right
+T 2 2 0
+T 2 0 2
+K Right
+T 4 2 0
+T 2 0 0
+K Up
+T 2 1 1
+K Down
+T 2 1 3
+K Up
+T 2 1 2
+K Up
+K Right
+T 2 0 3
+T 2 2 3
+T 2 1 2
+K Right
+T 2 0 3
+T 2 0 3
+T 2 3 0
+K Right
+T 2 2 0
+K Left
+T 2 1 1
+K Up
+T 2 0 1
+T 2 1 3
+T 2 0 0
+K Down
+T 2 1 0
+T 2 2 2
+K Right
+T 2 0 0
+K Right
+T 2 2 1
+K Down
+T 2 2 3
+K Down
+K Up
+T 2 1 1
+K Up
+T 2 2 0
+T 2 2 2
+T 2 1 1
+K Up
+T 2 3 0
+K Up
+T 2 1 3
+T 2 2 3
+T 2 2 0
+T 2 3 0
+K Up
+T 2 2 1
+T 4 2 0
+T 2 3 1
+T 2 2 0
+T 2 0 1
+K Right
+T 2 0 3
+K Down
+T 2 3 3
+K Down
+K Up
+T 2 1 1
+K Up
+T 2 1 3
+T 2 3 0
+T 2 0 3
+T 2 3 2
+T 2 1 2
+T 2 3 1
+T 2 0 0
+K Down
+T 2 2 2
+T 2 0 2
+K Down
+T 2 3 1
+T 2 2 0
+T 4 2 3
+K Right
+T 2 3 0
+T 2 2 3
+T 2 3 1
+T 2 3 1
+T 2 1 0
+T 2 3 2
+T 2 0 3
+K Left
+T 2 0 1
+T 2 2 1
+K Left
+K Down
+T 2 1 3
+K Right
+T 2 2 3
+K Down
+T 2 3 0
+T 2 1 3
+K Down
+T 4 2 3
+K Right
+K Left
+T 2 3 0
+T 2 1 2
+T 2 3 3
+K Down
+T 2 1 1
+T 2 2 3
+K Down
+T 4 2 2
+K Down
+K Up
+T 2 1 3
+T 2 1 1
+T 2 3 3
+T 2 2 0
+K Left
+T 2 3 1
+K Left
+K Up
+K Right
+T 2 1 1
+T 2 1 1
+T 2 3 1
+T 2 1 0
+K Left
+T 2 1 2
+T 2 3 0
+K Right
+T 2 1 2
+T 2 0 2
+T 2 0 2
+T 2 2 0
+T 2 0 1
+T 2 0 1
+T 4 0 2
+T 2 0 2
+T 2 2 0
+T 2 0 2
+T 2 1 3
+T 2 3 2
+T 2 3 1
+T 2 2 1
+T 2 0 2
+T 2 3 0
+T 2 2 2
+T 4 2 0
+T 2 2 2
+T 2 3 3
+T 2 2 1
+T 2 3 0
+T 4 1 1
+T 2 3 0
+T 4 3 1
+T 2 3 2
+T 2 1 3
+T 2 3 1
+T 2 1 3
+T 2 1 0
+T 2 1 1
+T 2 1 3
+T 2 1 3
+T 2 1 1
+T 2 3 2
+T 2 2 0
+T 2 0 1
+T 2 1 1
+T 4 3 1
+T 2 1 2
+T 2 3 1
+T 2 3 3
+T 2 2 3
+T 2 1 3
+T 2 1 1
+T 2 0 1
+T 2 2 3
+T 2 0 2
+T 2 2 1
+T 2 1 3
+T 2 0 2
+T 2 1 3
+T 4 0 0
+K Right
+K Up
+T 2 2 2
+T 2 0 0
+T 2 2 3
+T 2 1 2
+T 2 2 1
+T 2 3 3
+T 2 1 2
+T 2 1 3
+T 2 3 0
