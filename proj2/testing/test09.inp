@@ -1,0 +1,11 @@
+java -ea qirkat.Main
+auto White
+manual Black
+seed 1237
+start
+@send white...
+---------------------
+java -ea qirkat.Main
+seed 3948
+start
+@recv white...
